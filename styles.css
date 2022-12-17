@@ -5,21 +5,29 @@
 .logo {
     height: auto;
     width: 300px;
+    justify-content: end;
+    border: white solid 2px;
 }
 .intro {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: white;
 }
 .hey {
-    font-size: 16px;
+    font-size: 21px;
+    padding-left: 30px;
 }
 .karina {
-    font-size: 40px;
+    font-size: 60px;
     font-weight: 700;
+    padding-left: 80px;
+}
+.about {
+    font-size: 16px;
 }
 *{
     background-color: rgb(24, 78, 128);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    border: 2px red solid;
+    /*border: 2px red solid;*/
 }
 ul {
     display: flex;
@@ -42,4 +50,17 @@ div a{
     padding: 10px 15px;
     background-color: gray;
     margin: 8px;
+}
+.intro-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.intro-paragraph {
+    margin-left: -50px;
+    margin-right: 20px;
+    background-color: white;
+}
+.intro {
+    margin: 10px;
 }
