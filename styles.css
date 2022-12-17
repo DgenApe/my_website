@@ -1,0 +1,45 @@
+.title-styles {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+.logo {
+    height: auto;
+    width: 300px;
+}
+.intro {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.hey {
+    font-size: 16px;
+}
+.karina {
+    font-size: 40px;
+    font-weight: 700;
+}
+*{
+    background-color: rgb(24, 78, 128);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 2px red solid;
+}
+ul {
+    display: flex;
+    list-style: none;
+    border: 5px solid black;
+    justify-content: center;
+}
+li {
+    padding: 0px;
+    height: 30px;
+    width: 120px;
+    background-color: gray;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+div a{
+    padding: 10px 15px;
+    background-color: gray;
+    margin: 8px;
+}
