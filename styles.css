@@ -27,7 +27,7 @@
 *{
     background-color: rgb(24, 78, 128);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    /*border: 2px red solid;*/
+    border: 2px red solid;
 }
 ul {
     display: flex;
@@ -45,6 +45,7 @@ li {
     display: flex;
     justify-content: center;
     padding-bottom: 20px;
+    flex-wrap: wrap;
 }
 div a{
     padding: 10px 15px;
@@ -60,7 +61,25 @@ div a{
     margin-left: -50px;
     margin-right: 20px;
     background-color: white;
+    flex-grow: 5;
 }
 .intro {
     margin: 10px;
+}
+.socials img{
+    height:30px;
+    width: auto;
+    margin: 7px;
+    border: 2px;
+    border-color: white;
+}
+.social-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.socials {
+    flex-grow: 1;
+    margin-top: 20px;
+    align-self:stretch;
 }
