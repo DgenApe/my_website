@@ -41,6 +41,10 @@ div a{
     background-color: gray;
     /*margin: 8px;*/
 }
+a {
+    text-decoration: none;
+    color: black;
+}
 .intro-container {
     display: flex;
     justify-content: center;
