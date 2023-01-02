@@ -1,5 +1,10 @@
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Roboto Light'), local('Roboto-Light'), url(https://themes.googleusercontent.com/static/fonts/roboto/v9/Pru33qjShpZSmG3z6VYwnT8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');
+}
 .title-styles {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
 }
 .logo {
@@ -9,7 +14,6 @@
     border: white solid 2px;
 }
 .intro {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: white;
 }
 .hey {
@@ -26,7 +30,7 @@
 }
 *{
     background-color: rgb(24, 78, 128);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Roboto';
     /*border: 2px red solid;*/
 }
 .container {
@@ -36,9 +40,10 @@
     flex-wrap: wrap;
     gap: 8px;
 }
-div a{
+.container div a{
     padding: 10px 15px;
     background-color: gray;
+    border-radius: 5px;;
     /*margin: 8px;*/
 }
 a {
@@ -75,10 +80,32 @@ a {
     min-height: 442px;
 }
 .socials {
-    border: 2px solid red;
+    /*border: 2px solid red;*/
     align-self: center
 }
 .extra-space {
     height: 30px;
-    border: 2px solid red;
+    /*border: 2px solid red;*/
+}
+.box {
+    height:150px;
+    width:150px;
+    border: black solid 2px;
+    border-radius: 20px;
+}
+.project-container {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+.skill-icon {
+    height: 30px;
+    width: 30px;
+    border: black solid 2px;
+    border-radius:5px;
+}
+.skills-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
 }
